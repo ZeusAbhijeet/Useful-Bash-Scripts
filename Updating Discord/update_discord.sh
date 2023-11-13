@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]
 	exit
 fi
 
-# Check if the location of the discord tar.gz is provided
+# Check if the location of the discord tar.gz is provided as an argument
 if [ -z "$1" ]
 	then echo "Usage: $0 /path/to/discord-x.x.x.tar.gz"
 	exit
